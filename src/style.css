@@ -1,6 +1,6 @@
 body {
   color: #efe1e3;
-  background-color: rgb(14 20 24);
+  background-color: rgb(7 2 0);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -28,12 +28,12 @@ header h1 {
 
 header h2 {
   font-weight: 400;
-  font-size: 46px;
-  line-height: 1.5;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 header h3 {
   font-weight: 900;
-  font-size: 25px;
+  font-size: 28px;
   line-height: 1.5;
 }
 header a {
@@ -46,7 +46,7 @@ header a {
   padding: 15px;
   margin-bottom: 20px;
   text-decoration: none;
-  color: rgb(58, 58, 145);
+  color: rgb(39 155 194);
   border-radius: 3px;
 }
 main {
@@ -66,19 +66,56 @@ main h2 {
 main p {
   font-size: 13px;
   line-height: 1.3;
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 35px;
 }
 main .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px !important;
-}
-section {
+  grid-gap: 40px !important;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 50px !important;
+}
+section .hot-spots {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px !important;
+}
+
+.la-spots {
+  display: block;
+  margin: 0 auto;
+  text-align: center !important;
+}
+.second {
+  background-color: rgb(34, 19, 13);
+}
+.card {
+  background-color: rgb(7 2 0);
+  margin: 30px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #efe1e3;
+  text-decoration: none;
+  color: rgb(39 155 194);
+
+  display: block;
+  margin: 0 auto;
 }
 footer {
   margin-top: 20px;
