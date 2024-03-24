@@ -46,11 +46,40 @@ header a {
   color: rgb(58, 58, 145);
   border-radius: 3px;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
 footer {
   margin-top: 20px;
-  text-align: center;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("../src/hollywood-sign.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-@media (max-width: 800px) {
+footer h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px;
+}
+footer p {
+  margin: 10px;
+}
+footer ul {
+  margin: 10px;
+  padding-left: 10px;
+}
+footer li {
+  font-size: 20px;
+  line-height: 1.5;
+  list-style: none;
+}
+footer a {
+  color: #f3e6d3;
+}
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
@@ -62,5 +91,15 @@ footer {
   }
   header h3 {
     font-size: 15px;
+  }
+  footer h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer li {
+    font-size: 14px;
   }
 }
