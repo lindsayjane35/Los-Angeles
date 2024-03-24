@@ -1,5 +1,5 @@
 body {
-  color: #f3e6d3;
+  color: #efe1e3;
   background-color: rgb(14 20 24);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
 }
 header {
-  background-image: url("../src/hollywood-sign-behind.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../src/palm-trees-pink.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -18,9 +19,10 @@ header {
 }
 header h1 {
   font-weight: 700;
-  font-size: 96px;
+  font-size: 80px;
   line-height: 1.5;
   margin: 30px 0;
+  text-shadow: 1px 1px 4px rgb(225 217 225);
 }
 
 header h2 {
@@ -39,7 +41,7 @@ header a {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 3px;
-  background-color: #f3e6d3;
+  background-color: #efe1e3;
   padding: 15px;
   margin-bottom: 20px;
   text-decoration: none;
@@ -53,8 +55,8 @@ header a {
 footer {
   margin-top: 20px;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url("../src/hollywood-sign.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../src/hollywood-sign-behind.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,12 +74,12 @@ footer ul {
   padding-left: 10px;
 }
 footer li {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   list-style: none;
 }
 footer a {
-  color: #f3e6d3;
+  color: #efe1e3;
 }
 @media (max-width: 960px) {
   header {
