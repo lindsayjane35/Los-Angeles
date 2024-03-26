@@ -181,7 +181,18 @@ footer a {
   header h3 {
     font-size: 15px;
   }
+  section .hot-spots {
+    display: block;
+  }
+  .card-header {
+    display: block;
+    margin: 0 auto;
+  }
+  .second img {
+    display: none !important;
+  }
   .embed {
+    aspect-ratio: 16 / 9;
   }
   footer h4 {
     font-size: 14px;
