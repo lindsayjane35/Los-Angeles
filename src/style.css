@@ -181,6 +181,12 @@ footer a {
   header h3 {
     font-size: 15px;
   }
+  section {
+    padding: 0;
+  }
+  .why-la {
+    margin-bottom: 15px;
+  }
   .grid {
     grid-template-columns: 1fr !important;
   }
@@ -189,11 +195,21 @@ footer a {
     display: block;
     margin: 0 auto;
   }
+  .card {
+    margin: 10px 0 10px 0;
+  }
+  .second {
+    padding-bottom: 15px;
+  }
   .second img {
     display: none !important;
   }
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .insta {
+    display: block !important;
+    margin: 0 auto !important;
   }
 
   footer h4 {
